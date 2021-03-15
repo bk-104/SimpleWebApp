@@ -2,7 +2,7 @@ package com.develogical.app;
 
 public class QueryProcessor {
     public String process(String query) {
-        if (query.toLowerCase().contains("oxford")) {
+        if (query.toLowerCase().contains("oxxford")) {
             return "Oxford is the county town and only city of Oxfordshire, England." +
                     " In 2017, its population was recorded at 152,450. It is 56 miles (90 km) northwest of London," +
                     " 64 miles (103 km) southeast of Birmingham, and 61 miles (98 km) northeast of Bristol.\n" +
