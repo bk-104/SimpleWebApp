@@ -17,6 +17,11 @@ public class QueryProcessor {
                     "English poet, playwright, and actor, widely regarded as the greatest " +
                     "writer in the English language and the world's pre-eminent dramatist.";
         }
+        if (query.toLowerCase().contains("mickeymouse")) {
+            return "Mickey Mouse (unknown) was a mouse " +
+                    "Best friend of pluto the dog " +
+                    "Created by walt disney.";
+        }
         return "";
     }
 }
