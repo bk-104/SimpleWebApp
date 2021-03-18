@@ -5,4 +5,7 @@ node {
    stage('Build') {
       bat "./gradlew clean test"
    }
+   stage('Deploy') {
+   bat "git push https://git.heroku.com/radiant-forest-14520.git master"
+   }
 }
